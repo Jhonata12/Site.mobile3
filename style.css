@@ -330,10 +330,30 @@ html, body {
     margin-left: 80px;
   }
 
-  @media screen and (min-width:0px) and (max-width: 768px){
-    body{
-     scale: 60%;
-        }
+  @media (min-width: 200px) and (max-width: 768px){
+    .t{
+      margin-right: -350px;
+      margin-left: 550px;
+     }
+    
+    .button{
+      margin-left: 950px;
+    }
+
+    .text{
+      width: 300px;
+      margin-left: 850px;
+      scale: 150%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+         }
+
+    .tex{
+      margin-left: -50px;
+      margin-right: -300px;
+      margin-top: 30px;
+    }
+
   }
   
 
